@@ -1,0 +1,142 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-gap: 60px 30px;
+  background-color: rgb(248, 248, 248);
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding:60px 40px 40px 40px;
+  font-family: Arial, Helvetica, Sans-serif;
+
+}
+
+.d {
+  padding: 25px 30% 25px 25px;
+  margin: 40px 120px 50px 120px; 
+  background-color: white;
+  color: gray;
+  line-height: 1.4em;
+}
+
+div.d1 {
+  color:#3399ff;
+  font-size: 20px;
+}
+div.d2 {
+  color:gray;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+.hed {
+  margin: 60px 120px 50px 120px;
+  font-size: 35px;
+  font-family: sans-serif;;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+.button1 {
+  background-color: white;
+  color: #3399ff  ;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: 1.6px solid #3399ff;
+  border-radius: 5px;
+
+}
+
+.button2 {
+  background-color: white;
+  color: #3399ff  ;
+  padding: 8px 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+border: 1.6px solid #3399ff;
+}
+
+.a {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.b {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+.footer{ 
+  margin-top: 60px;
+  margin-bottom: 50px; 
+  padding: 50px 25px 30px 25px;
+  background-color:white;
+  color: gray;
+  text-align: center;
+}
+
+.txt {
+  font-family: Arial, Helvetica, sansserif;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+a {
+  color: gray;
+  font-weight: bold;
+}
+i {
+  color:  #ff6666;
+}
+.ttp {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  background-color: white;
+  font-family: sans-serif; #roboto
+  font-size: 20px;
+}
+div.tt {
+  padding: 15px 0px 20px 110px;
+  text-align: left;
+  font-family: sans-serif;
+}
+div.ic {
+float: right;
+padding-right: 110px;
+padding-bottom: 20px;
+padding-top: 15px;
+word-spacing: 40px;
+}
+ 
+.button4 {
+  background-color: #ff6666;
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button:hover {opacity: 1}
